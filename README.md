@@ -68,3 +68,69 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+1. Folder Structure You Should Create
+go
+Copy code
+motionplay/
+├── frontend/     ← All React files go here
+│   ├── public/
+│   ├── src/
+│   ├── package.json
+│   └── ...
+├── backend/      ← All backend files go here (Node.js/Express, Python, etc.)
+│   ├── app.js or index.js
+│   ├── package.json (if using Node)
+
+
+2️⃣ Setup Frontend (React)
+bash
+Copy code
+cd frontend
+npm install
+
+
+3️⃣ Run Frontend App
+bash
+Copy code
+npm start
+
+
+🕹️ Gameplay
+Use arrow keys ← ↑ → ↓ to move the player.
+
+Avoid enemy emojis (👿), they reduce your score!
+
+Collect:
+
+😇 Angel (Bonus Points)
+
+🛡️ Shield (Temporary invincibility)
+
+🐢 Turtle (Slow motion)
+
+
+📦 Dependencies Used
+react
+
+react-dom
+
+react-scripts
+
+react-webcam
+
+@tensorflow-models/posenet (if motion detection used)
+
+@tensorflow/tfjs
+
+
+🧠 Future Ideas
+Add face detection for mood-based power-ups
+
+Add leaderboard (using backend)
+
+Add multiplayer mode
+
+Deploy on Netlify (frontend) + Render (backend)
+
