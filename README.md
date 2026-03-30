@@ -84,14 +84,14 @@ motionplay/
 │   ├── package.json (if using Node)
 
 
-2️⃣ Setup Frontend (React)
+2️ Setup Frontend (React)
 bash
 Copy code
 cd frontend
 npm install
 
 
-3️⃣ Run Frontend App
+3️ Run Frontend App
 bash
 Copy code
 npm start
@@ -104,14 +104,14 @@ Avoid enemy emojis (👿), they reduce your score!
 
 Collect:
 
-😇 Angel (Bonus Points)
+ Angel (Bonus Points)
 
-🛡️ Shield (Temporary invincibility)
+ Shield (Temporary invincibility)
 
-🐢 Turtle (Slow motion)
+ Turtle (Slow motion)
 
 
-📦 Dependencies Used
+ Dependencies Used
 react
 
 react-dom
@@ -125,7 +125,7 @@ react-webcam
 @tensorflow/tfjs
 
 
-🧠 Future Ideas
+ Future Ideas
 Add face detection for mood-based power-ups
 
 Add leaderboard (using backend)
